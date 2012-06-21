@@ -9,7 +9,7 @@ public class AdderStandaloneServer {
 		
 		//register and publish WebService interface
 		factory.setServiceClass(AdderService.class);
-		factory.setAddress("http://localhost:8080/adder");
+		factory.setAddress(serviceAddress);
 		factory.setServiceBean(new AdderServiceImpl());
 		
 		//create WebService instance
