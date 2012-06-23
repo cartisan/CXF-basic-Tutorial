@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CXF-Tutorial">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jetty-io-7.5.3.v20111011.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/jetty-io-7.5.3.v20111011.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jetty-http-7.5.3.v20111011.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/jetty-http-7.5.3.v20111011.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jetty-continuation-7.5.3.v20111011.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/jetty-continuation-7.5.3.v20111011.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlschema-core-2.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/xmlschema-core-2.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jetty-server-7.5.3.v20111011.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/jetty-server-7.5.3.v20111011.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cxf-2.5.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/cxf-2.5.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="neethi-3.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/neethi-3.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/commons-logging-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jetty-util-7.5.3.v20111011.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/jetty-util-7.5.3.v20111011.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jetty-security-7.5.3.v20111011.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/jetty-security-7.5.3.v20111011.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-servlet_2.5_spec-1.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/geronimo-servlet_2.5_spec-1.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wsdl4j-1.6.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/apache-cxf-2.5.0/lib/wsdl4j-1.6.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="CXF-Tutorial"/>
+        <property name="java-output-path" value="/CXF-Tutorial/WebContent/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

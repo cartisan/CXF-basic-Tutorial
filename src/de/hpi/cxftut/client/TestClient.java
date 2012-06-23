@@ -17,7 +17,8 @@ public class TestClient {
 	
 	
 	public static void main(String[] args) {
-		TestClient client = new TestClient("http://localhost:8080/adder");
+//		TestClient client = new TestClient("http://localhost:8080/adder");
+		TestClient client = new TestClient("http://localhost:8080/CXF-Adder/services/adder");
 		int a = 15;
 		int b = 17;
 		System.out.printf("%d + %d = %d", a,b, client.adder.add(a, b));
