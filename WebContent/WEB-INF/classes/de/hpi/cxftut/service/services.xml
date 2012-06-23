@@ -14,7 +14,7 @@
   <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/>
   <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
 
-  <jaxws:endpoint id="adder"
+  <jaxws:endpoint id="adderService"
       implementor="de.hpi.cxftut.service.AdderServiceImpl"
-      address="/adder"/>
+      address="/adderService"/>
 </beans>
