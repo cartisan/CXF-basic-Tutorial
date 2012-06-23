@@ -11,7 +11,6 @@ import de.hpi.cxftut.service.jaxws.AddResponse;
 @WebService
 public interface AdderService {
 
-
     @WebMethod
     public abstract int add(@WebParam(name="a")int a, @WebParam(name="b")int b);
     
