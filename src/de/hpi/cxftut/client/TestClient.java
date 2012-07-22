@@ -26,6 +26,7 @@ public class TestClient {
 		while(!asyncResponse.isDone()) {
 			waitCount+=1;
 		}
+		
 		System.out.println("\n Waited: "+ String.valueOf(waitCount)+ " cycles");
 	}
 	

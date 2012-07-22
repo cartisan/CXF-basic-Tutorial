@@ -18,7 +18,7 @@ public interface AdderService {
     @WebMethod(operationName = "add")
     public abstract Response<AddResponse> addAsync(@WebParam(name="a")int a, @WebParam(name="b")int b);
     
-    //callback approach
+    // callback approach
     @WebMethod(operationName = "add")
     public abstract Future<?> addAsync(@WebParam(name="a")int a, @WebParam(name="b")int b,
     										@WebParam(name="asyncHandler")AsyncHandler<AddResponse> asyncHandler);
