@@ -1,0 +1,7 @@
+This is an basic example of an Web Service with Apache CXF.
+It contains the following features:
+ * Service with asynchronous web methods
+ * Standalone server
+ * Test client
+
+The complete tutorial can be found on <a href=http://de.wikiversity.org/wiki/Kurs:Neueste_Internet-_und_WWW-Technologien/ApacheCXF>wikiversity</a>.
